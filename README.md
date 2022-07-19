@@ -1,6 +1,36 @@
-# Getting Started with Create React App
+# Final capstone Front End Hotel Booking
+React App that connects to a Ruby on Rails BackEnd server to allows users to book and reverse hotel rooms
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Built With
+
+- JavaScript
+- React
+- Redux
+
+## Deployed On
+
+#### Click on the badge below to see the deployed version of the app:
+ - Live version coming soon
+
+<!-- [![](https://img.shields.io/badge/Deployed-Heroku-blueviolet)](https://spacex-booking.herokuapp.com/) -->
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- some knowledge on `npm` , webpack, JavaScript(ES6) and React
+- [Node.js](https://nodejs.org/en/)
+- Web browser
+- Code Editor
+### Setup
+
+- Clone repository using this command in terminal ` git clone https://github.com/blessedjasonmwanza/final-capstone-front-end.git`
+- Change directory to the cloned repository `cd spacex-booking`
+- Install dependencies using `npm install`
+- run `npm start`
+
 
 ## Available Scripts
 
@@ -17,8 +47,6 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -26,8 +54,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
@@ -39,32 +65,32 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+👤 **Blessed Jason Mwanza**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- GitHub: [@blessedjasonmwanza](https://github.com/blessedjasonmwanza)
+- Twitter: [@mwanzabj](https://twitter.com/mwanzabj)
+- LinkedIn: [Blessedjasonmwanza](https://linkedin.com/in/blessedjasonmwanza)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👤 **Mateo Villagomez**
 
-### Advanced Configuration
+👤 **ForHemer**
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions, issues, and feature requests are welcome!
 
-### Deployment
+Feel free to check the [issues page](https://github.com/blessedjasonmwanza/final-capstone-front-end/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Show your support
 
-### `npm run build` fails to minify
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
