@@ -5,12 +5,12 @@
 
 // inside your component
 /**
+ * to use the rooms state
  * const component = () => {
- *  const rockets = useSelector((state) => state.rooms.rooms);
+ *  const rooms = useSelector((state) => state.rooms.rooms);
  * }
  * export default component;
  */
-
 
 // How to update your redux store
 // Inside your component e.g
