@@ -1,29 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import RoomsList from './components/RoomsList';
+import MyReservations from './components/MyReservations';
+import Reserve from './components/Reserve';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          {' '}
-          <code>src/App.js</code>
-          {' '}
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <Router>
+    <Navigation />
+    <Routes>
+      <Route exact="true" path="/" element={<RoomsList />} />
+      <Route exact="true" path="/reserve" element={<Reserve />} />
+      <Route exact="true" path="/myreservations" element={<MyReservations />} />
+    </Routes>
+  </Router>
+);
 
 export default App;
