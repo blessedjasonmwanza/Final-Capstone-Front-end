@@ -1,8 +1,10 @@
 import React from 'react';
+import Aside from '../sidebar/sidebar';
 
 const Rooms = () => (
 
   <div className="container d-flex flex-column flex-md-row">
+    <Aside />
     <main className="ps-0 ps-md-5 flex-grow-1">
       <h1>This is the Rooms component</h1>
       <h2>It will content the rooms carousel</h2>
