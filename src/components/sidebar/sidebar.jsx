@@ -20,7 +20,7 @@ const Aside = () => (
           <a className="nav-link" href="https://www.google.com/">Add Reservations</a>
         </li>
         <li>
-          <a className="nav-link" href="https://www.google.com/">Log out</a>
+          <a className="nav-link" href="https://www.google.com/">Logout</a>
         </li>
       </ul>
     </div>
