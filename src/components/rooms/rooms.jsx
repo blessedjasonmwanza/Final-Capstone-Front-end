@@ -4,8 +4,8 @@ const Rooms = () => (
 
   <div className="container d-flex flex-column flex-md-row">
     <main className="ps-0 ps-md-5 flex-grow-1">
-      <h1>This is the houses component</h1>
-      <h2>It will content the houses carousel</h2>
+      <h1>This is the Rooms component</h1>
+      <h2>It will content the rooms carousel</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
         ultrices auctor ornare. Etiam iaculis non est non dictum. Suspendisse lobortis,
