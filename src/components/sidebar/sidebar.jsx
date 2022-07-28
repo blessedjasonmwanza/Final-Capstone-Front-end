@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../../images/logo.svg';
 
 const Aside = () => (
@@ -11,16 +12,16 @@ const Aside = () => (
     <div className="collapse navbar-collapse w-100" id="navbarSupportedContent">
       <ul className="navbar-nav w-100 d-flex flex-md-column text-center text-md-end">
         <li>
-          <a className="nav-link" aria-current="page" href="https://www.google.com/">Rooms</a>
+          <Link to="/">Rooms</Link>
         </li>
         <li>
-          <a className="nav-link" href="https://www.google.com/">My Reservations</a>
+          <Link to="/reservations">My Reservations</Link>
         </li>
         <li>
-          <a className="nav-link" href="https://www.google.com/">Add Reservations</a>
+          <Link to="/addreservation">Add Reservation</Link>
         </li>
         <li>
-          <a className="nav-link" href="https://www.google.com/">Logout</a>
+          <Link to="/logout">LogOut</Link>
         </li>
       </ul>
     </div>
