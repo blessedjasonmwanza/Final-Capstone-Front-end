@@ -12,7 +12,10 @@ const Aside = () => (
     <div className="collapse navbar-collapse w-100" id="navbarSupportedContent">
       <ul className="navbar-nav w-100 d-flex flex-md-column text-center text-md-end">
         <li>
-          <Link to="/">Rooms</Link>
+          <Link to="/rooms">Rooms</Link>
+        </li>
+        <li>
+          <Link to="/addRoom">Add Room</Link>
         </li>
         <li>
           <Link to="/reservations">My Reservations</Link>
@@ -26,7 +29,6 @@ const Aside = () => (
       </ul>
     </div>
   </aside>
-
 );
 
 export default Aside;

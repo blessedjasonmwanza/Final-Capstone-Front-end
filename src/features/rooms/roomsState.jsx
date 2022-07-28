@@ -1,23 +1,24 @@
 /* eslint-disable */
 
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import axios from "axios"
 
-const URL = 'http://127.0.0.1:3000/api/v1/rooms'
+const ROOMS_URL = 'http://127.0.0.1:3001/api/v1/rooms'
 
-export const getRooms = createAsyncThunk (
-'photos/getRooms',
-async () => {
-const response = await fetch(URL);
-const data = await response.json();
-return data;
-}
+export const getRooms = createAsyncThunk ('rooms/getRooms', async () => {
+	const response = await axios.get(ROOMS_URL)
+	return response.data;
+})
 
-);
+export const addNewRoom = createAsyncThunk('rooms/addNewRoom', async (obj) => {
+	const response = await axios.post(ROOMS_URL, obj);
+	return response.data;
+})
 
 export const roomsSlice= createSlice({
-name: 'gallery',
+name: 'rooms',
 initialState: {
-	items: [],
+	rooms: [],
 	isLoading: false
 
 },
@@ -27,7 +28,7 @@ extraReducers:{
 },
 
 [getRooms.fulfilled]: (state, action) =>{
-	state.items = action.payload;
+	state.rooms = action.payload;
 	state.isLoading = false;
 },
 
@@ -38,5 +39,7 @@ extraReducers:{
 }
 
 });
+
+export const selectRoomById = (state, roomId) => state.rooms.rooms.find((room) => room.id === roomId);
 
 export default roomsSlice.reducer

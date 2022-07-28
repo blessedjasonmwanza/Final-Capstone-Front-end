@@ -41,7 +41,7 @@ const Login = () => (
                     </label>
                   </div>
                   <div className="d-grid">
-                    <Link to="/houses" className="btn btn-outline-dark btn-login text-uppercase fw-bold">
+                    <Link to="/rooms" className="btn btn-outline-dark btn-login text-uppercase fw-bold">
                       Sign in
                     </Link>
                   </div>
